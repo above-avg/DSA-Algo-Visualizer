@@ -1,76 +1,67 @@
-📊 DSA Algorithm Visualizer
+# 📊 DSA Algorithm Visualizer
 
-Interactive sorting algorithm visualizer built with TypeScript + Vite.
+Interactive sorting algorithm visualizer built with **TypeScript + Vite**.
 
-🔗 Live Demo: https://dulcet-sfogliatella-058f5f.netlify.app/
+🔗 **Live Demo:** https://dulcet-sfogliatella-058f5f.netlify.app/
 
-🚀 Overview
+---
+
+## 🚀 Overview
 
 DSA Algorithm Visualizer is a web-based tool that helps users understand how sorting algorithms work internally by animating each step of the process.
 
 It provides:
 
-Real-time array visualization
-
-Step-by-step animation of sorting
-
-Speed control
-
-Random array generation
-
-Custom array input
-
-Time & space complexity reference
+- Real-time array visualization  
+- Step-by-step animation of sorting  
+- Speed control  
+- Random array generation  
+- Custom array input  
+- Time & space complexity reference  
 
 This project is designed for students preparing for DSA interviews and anyone who wants an intuitive understanding of sorting algorithms.
 
-🧠 Algorithms Implemented
+---
 
-🔵 Bubble Sort — O(n²)
+## 🧠 Algorithms Implemented
 
-🟢 Selection Sort — O(n²)
-
-🟣 Merge Sort — O(n log n)
-
-🔴 Quick Sort — O(n log n) (Average)
+- 🔵 Bubble Sort — O(n²)
+- 🟢 Selection Sort — O(n²)
+- 🟣 Merge Sort — O(n log n)
+- 🔴 Quick Sort — O(n log n) (Average)
 
 Each algorithm includes:
+- Brief explanation
+- Best, Average, and Worst-case complexity
+- Space complexity
 
-Brief explanation
+---
 
-Best, Average, and Worst-case complexity
+## ✨ Features
 
-Space complexity
+- 🎯 Clean and responsive UI
+- 📈 Dynamic bar visualization
+- ⏩ Adjustable animation speed
+- ▶️ Play / Pause / Reset controls
+- 🎲 Generate random arrays
+- ✍️ Custom comma-separated array input
+- 📊 Step counter display
 
-✨ Features
+---
 
-🎯 Clean and responsive UI
+## 🛠️ Tech Stack
 
-📈 Dynamic bar visualization
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **HTML5 + CSS3**
+- **ESLint**
 
-⏩ Adjustable animation speed
+---
 
-▶️ Play / Pause / Reset controls
+## 📂 Project Structure
 
-🎲 Generate random arrays
-
-✍️ Custom comma-separated array input
-
-📊 Step counter display
-
-🛠️ Tech Stack
-
-TypeScript
-
-Vite
-
-Tailwind CSS
-
-HTML5 + CSS3
-
-ESLint
-
-📂 Project Structure
+```
 DSA-Algo-Visualizer/
 │
 ├── dist/                  # Production build
@@ -84,70 +75,78 @@ DSA-Algo-Visualizer/
 ├── package.json
 ├── vite.config.ts
 └── README.md
-⚙️ Installation & Setup
+```
+
+---
+
+## ⚙️ Installation & Setup
 
 Clone the repository:
 
+```bash
 git clone https://github.com/your-username/DSA-Algo-Visualizer.git
 cd DSA-Algo-Visualizer
+```
 
 Install dependencies:
 
+```bash
 npm install
+```
 
 Run development server:
 
+```bash
 npm run dev
+```
 
 Build for production:
 
+```bash
 npm run build
+```
 
 Preview production build:
 
+```bash
 npm run preview
-📸 Screenshots
-Main Interface
+```
 
-Algorithm selection panel
 
-Array visualization section
 
-Speed control & playback controls
+---
 
-(You can add screenshots here using /assets images)
-
-🎯 Learning Goals
+## 🎯 Learning Goals
 
 This project demonstrates:
 
-Visualization-driven learning
+- Visualization-driven learning
+- Algorithm animation design
+- State management for step tracking
+- Clean UI/UX implementation
+- TypeScript-based frontend architecture
 
-Algorithm animation design
+---
 
-State management for step tracking
+## 🔮 Future Improvements
 
-Clean UI/UX implementation
+- Add Heap Sort
+- Add Insertion Sort
+- Add graph algorithm visualization (BFS, DFS, Dijkstra)
+- Add comparison mode (two algorithms side-by-side)
+- Add complexity graph plotting
+- Add sound feedback for swaps
 
-TypeScript-based frontend architecture
+---
 
-🔮 Future Improvements
-
-Add more algorithms (Heap Sort, Insertion Sort)
-
-Add graph algorithms visualization (BFS, DFS, Dijkstra)
-
-Add comparison mode (two algorithms side-by-side)
-
-Add complexity graph plotting
-
-Add sound feedback for swaps
-
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome.
-If you find bugs or have feature suggestions, feel free to open an issue.
 
-📜 License
+If you find a bug or want to suggest a feature, open an issue.
+
+---
+
+## 📜 License
 
 This project is open-source and available under the MIT License.
